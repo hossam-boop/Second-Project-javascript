@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+
+
+.head1{
+    font-family:  arial;
+    color: #AAA;
+}
+
+.bg1{
+    background-color: #EEE;
+}
+
+.withBoe{
+    width: 90%;
+}
+
+.form-control{
+    border-color: black !important;
+}
+
+
+

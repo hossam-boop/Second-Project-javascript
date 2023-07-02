@@ -1,0 +1,60 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class=" container mt-5">
+        <div class=" row pt-3 ">
+            <div class=" col-10 m-auto">
+                <h3 class=" head1 fw-bold">Bookmarker</h3>
+                
+                
+            
+            <div class=" pt-3 withBoe  m-auto" >
+                <hr>
+            </div>
+
+            <div class=" container">
+                <div class="bg1">
+                    <div class="column text-center">
+                        <h2>Bookmark your favorite sites </h2>
+                        <p class=" fw-bold pt-2">Site Name</p>
+                        <input id="SiteName" class=" form-control mb-3 w-75 m-auto" placeholder="Bookmark Name" type="text">
+                        <p class="alert alert-error m-auto" id="nameError" style="display: none;"></p>
+                        <p class="fw-bold">Site URL</p>
+                        <input id="siteUrl" class=" form-control mb-3 w-75 m-auto" placeholder="website URL" type="text">
+                        <p class="alert alert-error m-auto" id="urlError" style="display: none;"></p>
+                        <div class="m-auto">
+                                <button class="btn btn-primary  mb-3 " onclick="Submit()">Submit</button>
+                        </div>
+                    </div>
+
+                </div>
+                <table class=" table table-striped mx-auto">
+                    
+                    <tbody id="mytable">
+                       
+                    </tbody>
+                    
+                    
+            </div>
+            <div class=" pt-3 withBoe  m-auto" >
+                <hr>
+            </div>
+        </div>
+        
+ 
+      </div>
+    </div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="mainjs.js"></script>
+</body>
+
+</html>
